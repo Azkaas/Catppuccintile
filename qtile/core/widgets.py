@@ -88,7 +88,7 @@ def init_widgets_list():
             name_transform=lambda name: name.upper(),
         ),
         widget.Image(
-            filename='~/.config/qtile/custom/ender.png'
+            filename='~/.config/qtile/icons/ender.png'
         ),
         weather,
         widget.Volume(
